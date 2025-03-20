@@ -4,6 +4,10 @@
   overflow: hidden;
 }
 
+.gradientBg {
+  background: linear-gradient(135deg, #1a1c2c 0%, #4a569d 100%);
+}
+
 .backgroundVideo {
   position: fixed;
   right: 0;
