@@ -1,29 +1,30 @@
-# GDG Authentication Project
+# GDG Authentication App
 
-This is a Next.js project with Firebase Authentication integration.
+A Next.js application with Firebase authentication.
 
 ## Features
-
-- Google Authentication
+- Google Sign-in
+- Protected Routes
+- User Profile
 - Responsive Design
-- TypeScript Support
-- Custom 404 Page
 
 ## Getting Started
 
-First, install the dependencies:
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a `.env` file with your Firebase configuration
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-```bash
-npm install
-```
+## Deployment
+This project is configured for deployment on Firebase Hosting using GitHub Actions.
 
-Then, run the development server:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Last updated: March 20, 2024
 
 ## Technologies Used
 
